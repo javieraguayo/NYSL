@@ -1,0 +1,269 @@
+
+/*cambio tamaño imagen logo*/
+header>div>img {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+/*quitamos el margin y agregamos una fuente*/
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+/*caja de la imagen principal*/
+.box-img{
+    width: 20%;
+    float:left;
+    margin-left: 10%;
+    margin-top: -9%;
+}
+/*caja del titulo principal*/
+.box-title{
+    width: 100%;
+    font-size: 200% ;
+    margin-top: -8%;
+    color: white;    
+}
+.box-title>h1{
+    padding-left: 25%;
+}
+
+/*menu*/
+nav{
+    padding-top: 2%;
+    padding-left: 38%;
+}
+/*titulos de los menus*/
+nav>a{
+    background-color: #a3fb3e;
+    font-size: 17px;
+    color:black;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 2%;
+    text-decoration: none;
+}
+/*contenido*/
+.container{
+    padding-left: 200px;
+    padding-top: 100px;
+   
+}
+/*imagen del body*/
+.box-img2{
+    float:left;
+}
+
+/*titulo secundario*/
+.box-title2{
+    padding-left: 35%;
+    margin-bottom: 4%;
+}
+/*alinea los parrafos en todas las paginas*/
+
+.box-text-1{  
+   padding-left: 20%;
+   margin-right: 5%;
+}
+
+.box-text-1 p{
+    margin-left: 4%;
+}
+/*cambia de color del activo*/
+nav a.active {
+    color: blue;
+    text-decoration: none;
+}
+/*agregado gradiente en el header*/
+#grad1 {
+    width: 100%;
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#a3fb3e, #043c4c);
+    border-bottom: white;    
+  }
+/*tabla de infomacion de juego*/
+table{
+    width:75%;
+}
+
+table,td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 20px;
+    
+}
+td {
+    vertical-align: baseline;
+    padding-bottom: 0;    
+}
+
+.last-td {
+    padding-bottom: 1px;
+}
+/*caption tabla informacion*/
+caption{
+    text-align: left;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    text-decoration: underline;
+}
+/* fin tabla*/
+
+/*texto bajo la tabla de informaciones*/
+.table-text{
+    text-align: left;
+    padding-left: 7%;
+}
+/*pre debajo de la tabla*/
+.texto_info_pre{
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+/*retira el numero de un li*/
+.no_num{
+    list-style-type: none;
+}
+/*li pagina rules*/
+li{
+    padding: 0px 40% 15px 20px;
+}
+/*texto con las reglas*/
+.reglas-text{
+    text-align: left;
+    padding-left: 20%;
+    font-size: 120%;
+    text-align: justify;
+}
+/*titulo de las reglas*/
+.box-title-rule{
+    text-align: center;
+    padding-right: 10%;
+}
+/* titulo de la informacion de juego*/
+.box-title-info{
+    text-align: center;
+    padding-right: 15%;
+    margin-bottom: 3%;
+}
+
+.label-horario{
+    padding-left: 10%;
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+/*ultimo li de la tabla de informacion*/
+.last-li-info{
+    list-style-type:circle;
+}
+/*texto bajo el titulo 1 de las reglas*/
+.ext-rules-2{
+    text-align: center;
+    margin-bottom: 4%;
+    padding: 0px 200px 0px 70px;
+}
+
+/*pagina de registro*/
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.direccion-input{
+    width: 83%;
+    margin: 1%;
+}
+
+.first-input{
+    width: 36%;
+    margin: 1%;
+}
+
+.checkbox-escuela{
+    display:inline-block;
+    width: 340px; 
+}
+
+.checkbox-posicion{
+    display:inline-block;
+    width: 340px;
+}
+
+.radio-tamano{
+    display:inline-block;
+    width: 340px;
+}
+
+.checkbox-escuela>ul{
+    padding-left: 0px;
+}
+
+.checkbox-posicion>ul{
+    padding-left: 0px;
+}
+
+.radio-tamano>ul{
+    padding-left: 0px;
+}
+
+
+.checkbox-escuela>ul>li{
+    list-style-type: none;
+    padding-left: 0px;   
+}
+
+.checkbox-posicion>ul>li{
+    list-style-type: none;
+    padding-left: 0px;   
+}
+
+.radio-tamano>ul>li{
+    list-style-type: none;
+    padding-left: 0px;   
+}
+
+.text-registro{
+    padding: 0px 60px 60px 60px;
+}
+
+
+#id_fecha_nacimiento{
+    width: 45%;
+    margin: 1%;
+}
+
+.checkbox-list-1{
+    width: 80%;
+}
+
+#id_firma{
+width: 40%;
+}
+
+#id_fecha{
+    width:20% ;
+}
+
+/*btn registro.html*/
+.btn_registro{
+    background-color: #a3fb3e;
+    font-size: 17px;
+    color: black;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 2%;
+    text-decoration: none;
+    border: 0px;
+    width: 30%;
+    align-items: center;
+} 
+
+.box-btn-submit{
+    margin-top: 4%;
+    text-align: center;
+    padding-right: 15%;
+}

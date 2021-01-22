@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nysl_3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script type="text/javascript" src="js/modal.js"></script>
+
+    <title>NYSL</title>
+</head>
+<body>
+    <main>
+        <header>
+            <!-- gradiente-->
+            <div id="grad1"></div>
+            <div class="box-img">
+                <img class="img-logo" src="images/nysl_logo.png" alt="logo" />
+            </div>
+            <div class="box-title">
+                <h1>Northside Youth Soccer League</h1>
+            </div>
+            <nav>
+                <a href="index.html"> Home</a>
+                <a href="about.html" >About NYSL</a>
+                <a class ="active" href="contact.html"><i class="fa fa-info-circle"></i> Information</a>
+                <a href="registration.html">Registration</a>
+                <a href="rules.html">Rules</a>  
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <section class="container">
+            <div class="box-title-info">
+                <h2>Informacíon del juego de NYSL</h2>
+            </div>
+            <div class="label-horario">Horario de otoño</div>
+            <div class="table-text">
+                <table>
+                    <caption>* Todos los juegos tienen lugar el sábado.</caption>
+                    <thead>
+                        <tr>
+                            <th>Septiembre</th>
+                            <th>Equipos</th>
+                            <th>Ubicación</th>
+                            <th>Mapa</th>
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>U1 y U4 <br> U3 y U2</td>
+                            <td>AJ Katzenmaier <br> Greenbay</td>
+                            <td><a  onclick="showModal(1)" href="#"><i class="fa fa-map" aria-hidden="true"></i> Ver Mapa</a></td>
+                            <td>9:30 A.M <br> 1:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>08</td>
+                            <td>U5 y U6 <br>U6 y U1</td>
+                            <td>Howard A Yeager <br> Marjorie P Hart</td>
+                            <td><a  onclick="showModal(2)" href="#"><i class="fa fa-map" aria-hidden="true"></i> Ver Mapa</a></td>
+                            <td>9:30 A.M <br> 1:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>U2 y U4 <br> U3 y U5</td>
+                            <td>North <br> AJ Katzenmaier</td>
+                            <td><a  onclick="showModal(3)" href="#"><i class="fa fa-map" aria-hidden="true"></i> Ver Mapa</a></td>
+                            <td>9:30 A.M <br> 1:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>U1 y U3 <br> U2 y U6</td>
+                            <td>South <br> sHoward A Yeager</td>
+                            <td><a  onclick="showModal(4)" href="#"><i class="fa fa-map" aria-hidden="true"></i> Ver Mapa</a></td>
+                            <td>9:30 A.M <br> 1:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="last-td">29</td>
+                            <td class="last-td">U4 y U5</td>
+                            <td class="last-td">Greenbay</td>
+                            <td><a  onclick="showModal(5)" href="#"><i class="fa fa-map" aria-hidden="true"></i> Ver Mapa</a></td>
+                            <td class="last-td">9:30 A.M</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <pre class="texto_info_pre">
+
+
+    <strong>Tipo de instalación</strong>: Al aire libre
+
+    <strong>Información adicional</strong>: Si NYSL lo considera necesario, los juegos pueden
+    acortarse o cancelarse debido a condiciones climáticas extremas.
+    <br>
+    <strong>Por favor dirija todas las preguntas a </strong>: Michael Randall, Coordinador de la Liga
+    
+    <strong>Teléfono</strong>:(630) 690-8132
+
+    Correo electrónico <strong>michael.randall@chisoccer.org</strong>
+                </pre>
+            </div>
+            <!-- Modal-->   
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close" onclick="javascript:CloseModal();">X</a>
+                    <h2><i class="fa fa-map-marked-alt"></i> Mapa</h2>
+                    <iframe id="iframe" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <!-- Modal--> 
+        </section>
+        <footer></footer>
+    </main>
+</body>
+</html>
